@@ -11,7 +11,7 @@ from aiogram.enums import ParseMode
 from config import TOKEN, ADMIN_ID
 # ======== INIT BOT ========
 bot = Bot(
-    token=API_TOKEN,
+    token=TOKEN,
     default=DefaultBotProperties(parse_mode=ParseMode.HTML)
 )
 
