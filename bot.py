@@ -8,11 +8,7 @@ from aiogram.filters import Command
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 
-from config import API_TOKEN
-
-# ======== ADMIN ID ========
-ADMIN_ID = 8479479613
-
+from config import TOKEN, ADMIN_ID
 # ======== INIT BOT ========
 bot = Bot(
     token=API_TOKEN,
